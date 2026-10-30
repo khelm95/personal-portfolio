@@ -69,3 +69,83 @@ footer {
     padding: 15px;
     color: #5B2C83;
 }
+
+/* Responsive layout for Homework 3 */
+
+/* Use border-box sizing to help prevent overflow */
+* {
+    box-sizing: border-box;
+}
+
+/* Keep images inside their containers */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Multi-column layout using CSS Grid */
+main {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Keep each section from overflowing its grid column */
+main > section {
+    min-width: 0;
+}
+
+/* Make navigation links wrap when needed */
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+/* Tablet layout: one column at 768px and below */
+@media (max-width: 768px) {
+    main {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+
+    body {
+        padding: 16px;
+    }
+
+    nav a {
+        margin: 4px;
+    }
+}
+
+/* Mobile layout: smaller spacing at 320px and below */
+@media (max-width: 480px) {
+    body {
+        padding: 10px;
+    }
+
+    nav {
+        padding: 10px;
+        gap: 8px;
+    }
+
+    nav a {
+        margin: 2px;
+        overflow-wrap: anywhere;
+    }
+
+    section {
+        padding: 14px;
+        margin: 12px 0;
+    }
+
+    h1 {
+        font-size: 1.6rem;
+        overflow-wrap: anywhere;
+    }
+}
