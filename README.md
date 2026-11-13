@@ -24,7 +24,7 @@ I used similarity by keeping the same purple and lavender colors, fonts, and sty
 The About/Contact page includes a contact form with labeled name, email, and message fields. A fieldset and legend group the contact reason options. Required fields and email validation help users identify information that needs to be corrected.
 
 ## Accessibility Testing
-I tested all three pages using WAVE. Each page received a 10/10 AIM score, with zero errors, zero contrast errors, and zero alerts.
+I tested all three pages using WAVE after uploading my updated website to GitHub Pages. The Home, Projects, and About/Contact pages each received a 10/10 AIM score, with zero errors, zero contrast errors, and zero alerts. I also checked my text and background colors using the WebAIM Contrast Checker, and the combinations I tested passed WCAG AA requirements. I manually tested the contact form to confirm that required fields and email validation display error messages when information is missing or incorrect.
 
 ## Website Links
 - GitHub Repository: https://github.com/khelm95/personal-portfolio
