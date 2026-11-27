@@ -29,3 +29,17 @@ I tested all three pages using WAVE after uploading my updated website to GitHub
 ## Website Links
 - GitHub Repository: https://github.com/khelm95/personal-portfolio
 - Live Website: https://khelm95.github.io/personal-portfolio/
+
+## JavaScript Interactivity
+
+### DOM Interaction
+I added a Show/Hide Projects button to my Projects page using querySelector and addEventListener. Visitors can show or hide the project list without reloading the page.
+
+### Form Validation
+I added JavaScript validation to my contact form. The form displays accessible error messages when required fields are empty or invalid. Errors disappear when the user corrects the information. A confirmation message appears when all required fields pass validation. This is a demonstration form and does not send actual messages.
+
+### API Fetch (Bonus)
+I added a Random Fun Fact feature to my Home page using the Useless Facts API and fetch(). The feature displays random facts, includes a loading message, and handles errors if the API cannot be reached.
+
+### Keyboard Accessibility
+I tested all JavaScript interactions using keyboard navigation. Buttons have visible focus indicators, and users can interact with the features without using a mouse.

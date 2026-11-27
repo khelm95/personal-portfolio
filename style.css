@@ -416,3 +416,83 @@ a:focus-visible {
 #contact-form textarea:focus:invalid {
     border: 2px solid #B42318;
 }
+
+/* Show and hide projects button */
+
+#toggle-projects {
+    background-color: #5B2C83;
+    color: #FFFFFF;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 16px 0;
+}
+
+#toggle-projects:hover {
+    background-color: #7040A0;
+}
+
+#toggle-projects:focus-visible {
+    outline: 3px solid #7040A0;
+    outline-offset: 4px;
+}
+/* Accessible form error messages */
+
+#contact-form .error-message {
+    color: #B42318;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0 0 16px;
+}
+
+#contact-form .error-message:empty {
+    margin: 0;
+}
+
+#contact-form [aria-invalid="true"] {
+    border: 2px solid #B42318;
+}
+/* Form validation success message */
+
+#form-success {
+    color: #166534;
+    font-weight: bold;
+    margin-top: 16px;
+}
+
+#form-success:empty {
+    margin: 0;
+}
+/* Random Fun Fact styling */
+
+#fact-button {
+    background-color: #5B2C83;
+    color: #FFFFFF;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#fact-button:hover {
+    background-color: #7040A0;
+}
+
+#fact-button:focus-visible {
+    outline: 3px solid #7040A0;
+    outline-offset: 4px;
+}
+
+#fact-display {
+    background-color: #E9D5FF;
+    color: #333044;
+    padding: 16px;
+    margin-top: 16px;
+    border-radius: 8px;
+    line-height: 1.6;
+}
